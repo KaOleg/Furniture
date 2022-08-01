@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Перестановка мебели</title>
+        <style>
+            td{
+                border: solid 1px black;
+                padding: 20px 40px;
+            }
+            table{
+                border-collapse: collapse;
+            }
+            input{
+                width: 60%;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Стол</td>
+                <td>Стул</td>
+                <td>Шкаф</td>
+            </tr>
+            <tr>
+                <td>Стул</td>
+                <td></td>
+                <td>Кресло</td>
+            </tr>
+        </table>
+       <p><input placeholder="Введи номер строки мебели которую ты хочешь передвинуть." id="rowNumber" type="number"></p>
+       <p><input placeholder = "Введи номер столбца мебели которую хочешь передвинутью." id="colNumber" type="text"></p>
+       <p><input placeholder="Введи номер строки в которой хочешь передвинуть." id="rowNumberIn" type="number"></p>
+       <p><input placeholder="Введи номер столбца в который хочешь передвинуть." id="colNumberIn" type="text"></p>
+        <button>Передвинуть</button>
+        <script src="script.js"></script>
+    </body>
+</html>
